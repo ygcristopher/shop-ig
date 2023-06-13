@@ -56,9 +56,7 @@ export default function Home({ products }: HomeProps) {
             <SliderContainer className="embla__container container">
               {isLoading ? (
                 <>
-                  <ProductSkeleton className="embla__slide" />
-                  <ProductSkeleton className="embla__slide" />
-                  <ProductSkeleton className="embla__slide" />
+
                 </>
               ) : (
                 <>
